@@ -1,0 +1,344 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.container {
+    position: relative;
+    max-width: 1280px;
+    padding:0 40px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.header {
+    background-color:#FAF7F2;
+}
+.header__nav {
+    margin-top: 40px;
+}
+.header__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+}
+.nav__item-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav__item-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hero {
+    margin: 197px;
+    width: 813px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero__title {
+    width: 100%;
+    font-size: 70px;
+    line-height: 78px;
+}
+.hero__subtitle {
+    margin: 33px auto;
+    width: 535px;
+}
+.hero__button {
+    display: inline;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 17px 65px;
+    border-radius: 27px;
+    font-weight: bold;
+}
+.hero__button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.images .img {
+    position: absolute;
+}
+.images__first {
+    top: -10px;
+    left: 296px;
+}
+.images__second {
+    top: 104px;
+    right: 40px;
+}
+.images__third {
+    left: 40px;
+    top: 348px;
+}
+.images__fourth {
+    left: 84px;
+    top: 442px;
+}
+.images__five {
+    left: 150px;
+    top: 615px;
+}
+.images__six {
+    right: 174px;
+    top: 593px;
+}
+.images__seven {
+    right: 0px;
+    top: 527px;
+}
+
+.promo {
+    background-color:#D86143;
+    color: white;
+}
+.promo__description {
+    font-size: 32px;
+    line-height: 37px;
+    width: 527px;
+    margin-top:119px;
+}
+.promo__title {
+    margin-top:36px;
+    margin-bottom: 310px;
+    font-size: 120px;
+    line-height: 116px;
+}
+.promo__wrapper {
+    position: relative;
+}
+.promo__images .img {
+    position: absolute;
+}
+.promo__img1 {
+    top: 78px;
+    right: 165px;
+}
+.promo__img2 {
+    top: 120px;
+    right: 228px;
+}
+.promo__img3 {
+    top: 272px;
+    right: 108px;
+}
+.features {
+    background-color: white;
+}
+.features__title {
+    margin-top: 110px;
+    width: 976px;
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 86px;
+}
+.features__list{
+    margin-top: 96px;
+    margin-bottom: 120px;
+    display: flex;
+    gap: 22px;
+}
+.features__list-item {
+    width: 359px;
+    height: 508px;
+    padding-top: 16px;
+    padding-left: 24px;
+}
+.features__list-title {
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 44px;
+}
+.features__list-description {
+    margin-top: 310px;
+    font-size: 18px;
+    width: 310px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.features__list-item:nth-child(1) {
+    background-color: #F0FF95;
+}
+.features__list-item:nth-child(2) {
+    background-color:#B9E1D8;
+}
+.features__list-item:nth-child(3) {
+    background-color: #CCC7B7;
+}
+.apps__wrapper {
+    background-color: #716C3E;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.apps__title {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 458px;
+    margin-top: 109px;
+}
+.apps__list {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    font-size: 79px;
+    line-height: 100px;
+}
+.apps__list-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.apps__btn {
+    margin-bottom:124px;
+    margin-top: 92px;
+    padding:17px 121px;
+    color: white;
+    background-color: inherit;
+    font-size: 18px;
+    line-height: 22px;
+    border:1px solid white;
+    border-radius: 27px;
+}
+.apps__btn:hover {
+    cursor: pointer;
+    background-color: white;
+    font-weight: 400;
+    color: #716C3E;
+}
+.forms__wrapper {
+    position: relative;
+    /*text-align: center;*/
+}
+.forms__title {
+    width: 495px;
+    font-size: 57px;
+    margin-top: 116px;
+    line-height: 65px;
+}
+.forms__subtitle {
+    align-self: center;
+    width: 441px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin: 1017px auto 0;
+}
+.forms__button {
+    font-size: 18px;
+    line-height: 22px;
+    border:1px solid black;
+    padding: 17px 65px;
+    border-radius: 27px;
+    background-color: inherit;
+    margin: 38px 485px 120px;
+}
+.forms__button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.forms__images .forms__image {
+    position: absolute;
+}
+.form__img1 {
+    top:447px;
+}
+.form__img2 {
+    top: 750px;
+    right: 154px;
+}
+.form__img3 {
+    top: 205px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq {
+    background-color: black;
+    color: white;
+}
+.faq__wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq__list {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+.faq__list-item {
+    padding-top: 22px;
+    padding-bottom: 25px;
+    border-top: 1px solid white;
+}
+.faq__list-item:last-child {
+    border-bottom: 1px solid white;
+}
+.faq__list-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: black;
+    color: white;
+}
+.footer__links {
+    margin-top: 61px;
+    display: flex;
+    gap: 203px;
+}
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 88px;
+    margin-bottom: 55px;
+}
+.copyright__info {
+    width: 375px;
+    font-size: 10px;
+    line-height: 12px;
+}
